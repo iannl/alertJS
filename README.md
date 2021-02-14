@@ -17,6 +17,8 @@
 
 [Code](https://github.com/iannl/alertJS/)
 
+[Tryit](https://iannl.github.io/alertJS/tryit/makeTryit)
+
 ### Getting Started
 In the head section of the HTML file inport alertJS by using the code below:
 ```
