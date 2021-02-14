@@ -3,7 +3,6 @@
     var wrong = window.location.hash.replace('#', '')
     var p = confirm('You got the wrong answer ' + wrong + ' times. You got an average of ' + wrong/4 + ' answers wrong per questions. Post score?')
     if (p == true){
-        alert(p == true)
         localStorage.setItem('scores', localStorage.getItem('scores')+', '+ wrong)
         p = confirm('Right now you can only post scores locally. Your score was posted locally. View scores?')
         if (p == true) {
