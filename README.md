@@ -13,6 +13,10 @@
 
 [Demo](https://iannl.github.io/alertJS/src/demo/demo1.html)
 
+[Quiz](https://iannl.github.io/alertJS/quiz/1.html)
+
+[Code](https://github.com/iannl/alertJS/)
+
 ### Getting Started
 In the head section of the HTML file inport alertJS by using the code below:
 ```
