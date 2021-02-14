@@ -10,7 +10,7 @@
 [Closing Alerts](#closing-alerts)
 
 [Triggers](#triggers)
-# 
+
 [Demo](https://iannl.github.io/alertJS/src/demo/demo1.html)
 
 ### Getting Started
