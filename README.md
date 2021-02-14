@@ -10,6 +10,8 @@
 [Closing Alerts](#closing-alerts)
 
 [Triggers](#triggers)
+#
+[Demo](iannl.github.io/alertJS/src/demo/demo1.html)
 
 ### Getting Started
 In the head section of the HTML file inport alertJS by using the code below:
