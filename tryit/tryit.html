@@ -1,0 +1,9 @@
+<title>Tryit</title>
+<script src="alertJS.js"></script>
+<link rel="stylesheet" href="alertJS.css">
+<div id="alertJS" class="overlay"></div>
+<script>
+    var hash = window.location.hash.replace('#', '')
+    hash = atob(hash)
+    eval(hash)
+</script>

@@ -1,0 +1,25 @@
+<title>Make a Tryit</title>
+<textarea id="input" onchange="update()" cols="60" rows="6"></textarea>
+<textarea id="output" cols="60" rows="6"></textarea><br>
+<iframe id="iframe" src="" width="947px"></iframe><br>
+<button onclick="reload()">Reload (Click twice)</button>
+<button onclick="full()">fullscreen output</button>
+<a id="link" href="" target="_blank">Open</a>
+<script>
+    function update() {
+        input = document.getElementById('input').value
+        output = btoa(input)
+        document.getElementById('output').value=output
+        document.getElementById('iframe').src='tryit.html#'+output
+        document.getElementById('link').href='tryit.html#'+output
+    }
+
+    function reload() {
+        document.getElementById('iframe').src=''
+        update()
+    }
+
+    function full() {
+        document.getElementById('iframe').requestFullscreen()
+    }
+</script>
