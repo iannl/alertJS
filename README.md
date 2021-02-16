@@ -7,6 +7,8 @@
 
 [Buttons](#buttons)
 
+[Images](#images)
+
 [Closing Alerts](#closing-alerts)
 
 [Triggers](#triggers)
@@ -58,6 +60,15 @@ makeAlert('{close[closeAlert()]}', '')
 openAlert()
 ```
 ![screenshot](https://i.ibb.co/dDzD8gX/screenshot3.png)
+### Images
+Images are simple.
+They start with '(' and end with ').'
+Below is code for a image that has alt text that says 'Black Hole'
+```
+makeAlert('(Black Hole[https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg])', '')
+openAlert()
+```
+![screenshot](https://i.ibb.co/wp8Vqzy/screenshot4.png)
 ### Closing Alerts
 To close an alert you use
 ```
